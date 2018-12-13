@@ -27,8 +27,6 @@ CMakeLists.txt.user
 CMakeLists.txt.user.*
 
 # IDE project files
-*.sublime-project
-*.sublime-workspace
 
 # Local config windows
 _configure.bat
@@ -41,3 +39,9 @@ _start-cmd.bat
 
 # Wiki
 wiki
+
+#compile_commands.json
+compile_commands.json
+
+#ccls
+.ccls-cache
