@@ -16,6 +16,7 @@ int main() {
   sf::Vector3<int> c;
   std::vector<int> v;
   avector.x = 10.0;
+   bvector.x = 00;
 
   return 0;
 }
