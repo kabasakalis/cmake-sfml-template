@@ -11,12 +11,8 @@
 int main() {
   sf::Window window(sf::VideoMode(640, 480), "Hello world!");
 
-  sf::sleep(sf::seconds(10));
+  sf::sleep(sf::seconds(2));
   sf::Vector2f avector;
   sf::Vector3<int> c;
   std::vector<int> v;
-  avector.x = 10.0;
-   bvector.x = 00;
-
-  return 0;
 }
