@@ -6,13 +6,37 @@
  */
 
 #include <SFML/Window.hpp>
+#include <string>
 #include <vector>
 
-int main() {
-  sf::Window window(sf::VideoMode(640, 480), "Hello world!");
+#ifndef MAIN_H
+#define MAIN_H
 
-  sf::sleep(sf::seconds(2));
-  sf::Vector2f avector;
+class Mamalakis
+{
+private:
+public:
+  Mamalakis();
+  virtual ~Mamalakis();
+};
+
+#endif /* MAIN_H */
+
+int main()
+{
+  sf::Window window(sf::VideoMode(640, 480), "Hello world!");
+  int x = 10;
+  int y = 11;
+  int z;
+  std::string loko = "koko";
+  sf::Vector2f mamama;
   sf::Vector3<int> c;
-  std::vector<int> v;
+  Mamalakis *m = new Mamalakis();
+  sf::sleep(sf::seconds(2));
+  std::vector<int> vakaa;
+  mamama.x = 0;
+  mamama.y = 10;
+  // m -> delete();
+
+  ;
 }
