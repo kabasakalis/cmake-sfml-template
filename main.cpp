@@ -12,15 +12,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-class Psinakis
+
+class Otinanai
 {
 private:
-  int psi;
   std::string rara;
 
 public:
-  Psinakis();
-  virtual ~Psinakis();
+  Otinanai();
+  virtual ~Otinanai();
+
+  int psi;
 };
 
 #endif /* MAIN_H */
@@ -33,22 +35,37 @@ int main()
   int a = 10;
   int z;
 
+
   z = 10;
 
-  std::string vava = "http:/google.com";
-  sf::Vector2f mamama;
+  std::string str = "http:/google.com";
   sf::Vector3<int> c;
-  Psinakis* m = new Psinakis();
+  Otinanai* loulou = new Otinanai();
+  loulou->psi = 1000;
+  loulou->psi = 1000;
+  // m -> psi = _stat32i64
   sf::sleep(sf::seconds(2));
-  std::vector<int> momo;
-  momo.pop_back();
-  vava.append("mimi");
-  vava.max_size();
-  vava.max_size();
-  mamama.y = 10;
-  mamama.x = 29;
+  std::vector<int> vec3;
+  vec3.emplace_back(2);
+vec3
 
+  
+  std::vector<int> s;
+  s.push_back(34);
+  s.emplace_back(45);
+  s.push_back(34);
+  s.push_back(333);
 
-  momo.emplace_back(2);
+  
+  sf::Vector2f vec;
+  vec.x = 100;
+  vec.y = 2000;
+  vec.x = 1;
+  vec.y = 10;
+  vec.x = 29;
+  vec.y = 10;
+
+  str.append("mimi");
+
   // m -> delete();
 }
