@@ -12,12 +12,15 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-class Mamalakis
+class Psinakis
 {
 private:
+  int psi;
+  std::string rara;
+
 public:
-  Mamalakis();
-  virtual ~Mamalakis();
+  Psinakis();
+  virtual ~Psinakis();
 };
 
 #endif /* MAIN_H */
@@ -27,16 +30,25 @@ int main()
   sf::Window window(sf::VideoMode(640, 480), "Hello world!");
   int x = 10;
   int y = 11;
+  int a = 10;
   int z;
-  std::string loko = "koko";
+
+  z = 10;
+
+  std::string vava = "http:/google.com";
   sf::Vector2f mamama;
   sf::Vector3<int> c;
-  Mamalakis *m = new Mamalakis();
+  Psinakis* m = new Psinakis();
   sf::sleep(sf::seconds(2));
-  std::vector<int> vakaa;
-  mamama.x = 0;
+  std::vector<int> momo;
+  momo.pop_back();
+  vava.append("mimi");
+  vava.max_size();
+  vava.max_size();
   mamama.y = 10;
-  // m -> delete();
+  mamama.x = 29;
 
-  ;
+
+  momo.emplace_back(2);
+  // m -> delete();
 }
