@@ -20,6 +20,7 @@ private:
 
 public:
   Otinanai();
+  int getInt(d) {return d};
   virtual ~Otinanai();
 
   int psi;
@@ -39,31 +40,26 @@ int main()
   z = 10;
 
   std::string str = "http:/google.com";
-  sf::Vector3<int> c;
+  str.append()
   Otinanai* loulou = new Otinanai();
   loulou->psi = 1000;
   loulou->psi = 1000;
   // m -> psi = _stat32i64
+
   sf::sleep(sf::seconds(2));
-  std::vector<int> vec3;
-  vec3.emplace_back(2);
-vec3
+  std::vector<int> vmom;
 
-  
-  std::vector<int> s;
-  s.push_back(34);
-  s.emplace_back(45);
-  s.push_back(34);
-  s.push_back(333);
 
-  
-  sf::Vector2f vec;
-  vec.x = 100;
-  vec.y = 2000;
-  vec.x = 1;
-  vec.y = 10;
-  vec.x = 29;
-  vec.y = 10;
+  vmom.emplace_back(2);
+
+
+  std::vector<int> sa;
+  sa.push_back(2);
+
+  sa.emplace_back(45);
+  sf::Vector2f vex;
+  sa.push_back(2);
+  sa.push_back(2);
 
   str.append("mimi");
 
